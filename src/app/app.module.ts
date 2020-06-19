@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AngularFireModule } from '@angular/fire';
 import { NgModule } from '@angular/core';
 
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -19,7 +20,8 @@ const config = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserProfileComponent,
   ],
   imports: [
     BrowserModule,
